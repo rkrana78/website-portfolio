@@ -1,19 +1,160 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.intro-area {
+    background-color: #F8F9FC;
 }
 h1 {
-    font-size: 45px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+h2 {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    
 }
 .highlight {
     color: #FF8367;
 }
 .half-side {
     width: 40%;
+    float: left;
     margin-left: 5%;
     padding-left: 2%;
-    float: left;
 }
+
 .half-side img {
     width: 100%;
+    
 
+}
+section {
+    height: 500px;
+}
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.btn:hover {
+    background-image: linear-gradient(45deg, tomato, lightsalmon);
+}
+.button {
+    margin-top: 30px;
+}
+.project-area {
+    background-color: #F8F9FC;
+    padding: 50px 0;
+    
+}
+.project-area h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+
+.project-work {
+    width: 27%;
+   float: left;
+   border: 15px solid white;
+   margin-left: 3%;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 7px 7px 20px grey;
+}
+.project-work img {
+    width: 100%;
+    
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.contact-area {
+    margin: 70px 0;
+}
+.position{
+    background-image: url("images/image6.png");
+    background-repeat: no-repeat;
+    margin:auto;
+    background-size: cover;
+    width: 60%;
+    height: 200px;
+    position: relative;
+}
+#inquiry {
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+
+#chat {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+
+.connected  {
+ text-align: center;
+ margin-top: 80px;
+}
+
+.connected h4 {
+    color: gray;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.connected h3 {
+    color: #363958;
+    font-size: 30px;
+}
+
+
+
+.testimonial-area {
+    background-color: #F8F9FC;
+    text-align: center;
+    height: 600px;
+    padding-bottom: 50px;
+    
+}
+.testimonial-area h2 {
+    padding: 50px 0;
+}
+.testimonial-area h3 {
+    font-size: 25px;
+    color: #FF8367;
+
+}
+.testimonial-area p {
+    font-style: italic;
+}
+.greatings {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    
+}
+.greatings img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    margin: 60px 0;
 }
