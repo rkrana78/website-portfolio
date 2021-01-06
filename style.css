@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 45px;
+}
+.highlight {
+    color: #FF8367;
+}
+.half-side {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-side img {
+    width: 100%;
+
+}
